@@ -5,11 +5,10 @@
 		<script src="jquery-4.0.0.min (1).js"></script>
 	</head>
 	<body>
-		<h2 class="test">Заголовок</h2>
-		<h2>Заголовок</h2>
-		<h3>Заголовок</h3>
+		<p></p> 
+		<p>Тут есть текст</p>
 		<script>
-			$('h2:not(.test)').css('color', 'red');
+			$('p:empty').css({'color': 'red', 'background': 'red', 'height': '20px'});
 		</script>
 	</body>
 </html>

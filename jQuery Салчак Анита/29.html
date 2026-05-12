@@ -2,16 +2,18 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
 		<script src="jquery-4.0.0.min (1).js"></script>
 	</head>
 	<body>
 		<ul>
-			<li class="www"></li>
-			<li>следующий элемент</li>
+			<li>сиксевен</li>
+			<li>сиксевен</li>
+			<li>сиксевен</li>
 		</ul>
 		<script>
-			$('li.www + li').css({color: 'red', font: '30px Arial'});
+			$('li').each(function(index) {
+				$(this).text(index);
+			});
 		</script>
 	</body>
 </html>
